@@ -26,7 +26,6 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-				$body.removeClass('loader-wrapper')
 			}, 100);
 		});
 
