@@ -14,7 +14,8 @@
   height: 30px;
   position: relative;
   border: 4px solid #Fff;
-  animation: loader 2s infinite ease;
+  -webkit-animation: loader 2s infinite ease !important;
+  animation: loader 2s infinite ease !important;
   
 }
 
@@ -23,7 +24,8 @@
   display: inline-block;
   width: 100%;
   background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
+  -webkit-animation: loader 2s infinite ease !important;
+  animation: loader-inner 2s infinite ease-in !important;
 }
 
 @keyframes loader {

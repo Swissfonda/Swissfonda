@@ -1196,13 +1196,6 @@ body {
   overflow-y: scroll;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-  -webkit-animation: none !important;
-  animation: none !important;
-  -webkit-transition: none !important;
-  transition: none !important;
-}
-
 body, input, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
