@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
+		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="assets/css/lightbox.css"/>
 		<!-- lity CSS-->
 		<link href="assets/css/lity.css" rel="stylesheet">
+		<!-- Loader Css-->
+		<link href="assets/css/loader.css" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 		
@@ -23,9 +25,11 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<a href="#" class="icon solid fa-home"><span>Home</span></a>
+				<a href="#about_me" class="icon solid fa-user"><span>About me</span></a>
 				<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
 				<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 				<a href="https://www.linkedin.com/in/lawrencesumiller/" class="icon brands fa-linkedin"><span>Linkedin</span></a>
+				
 			</nav>
 			
 			<!-- Main -->
@@ -35,13 +39,103 @@
 				<article id="home" class="panel intro">
 					<header>
 						<h1>Lawrence Sumiller</h1>
-						<p>3D Artist</p>
+						<p>3D Artist/Freelancer</p>
+						<h5>Currently working at <a id="links" href="https://www.sycoforge.com/en/">Sycoforge</a></h5>
 					</header>
 					<a href="#work" class="jumplink pic">
 						<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-						<img src="images/me_london.jpg" alt="" />
+						<picture>
+							<source media="(min-width: 980px)" srcset="images/me_london.jpg">
+							<source media="(min-width: 465px)" srcset="images/me_london_resize_2.png">
+							<img src="images/me_london_resize_2.png" alt="">			
+						</picture>
 					</a>
 				</article>
+
+				<!-- About me-->
+				<article id="about_me" class="panel about_me">
+					<header>
+						<h2>About Me</h2>
+					</header>
+					<p>
+						My name is Lawrence Sumiller also known as Swissfonda. I have been studying 2D art everyday since I was 13. Since I started to study in the SAE Institute Zürich as of 2017 I have been also starting to learn the art of 3D.
+						
+					</p>
+
+					<p>
+						My passion is creating animation with my own characters. I am currently working at Sycoforge as a Freelancer and I am currently looking for an Internship for 3D or 2D Art in any shape or form.
+					</p>
+
+					<div class="row">
+						<h1 class="test"> My Skills </h1>
+						
+						<div class="test">
+							<div class="test2">
+								<svg viewBox="0 0 80 80" width="80" height="80">
+									<circle class="circle green" cx="40" cy="40" r="38"/>
+									</svg>
+									<h2>Advanced</h2>
+							</div>
+							<div class="test2">
+								<svg viewBox="0 0 80 80" width="80" height="80">
+									<circle class="circle yellow" cx="40" cy="40" r="38"/>
+								</svg>
+								<h2>Intermediate</h2>
+
+							</div>
+
+							<div class="test2">
+								<svg viewBox="0 0 80 80" width="80" height="80">
+									<circle class="circle red" cx="40" cy="40" r="38"/>
+								</svg>
+								<h2>Beginner</h2>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<section>
+
+						<div class="row">
+							<div class="col-4 " >
+								<div class="skills">
+									<img src="images/About_me/blocks.png" class="image fit skills" >
+									<h2 class="">Modelling</h2>
+									<h3 class="green">Maya</h3>
+									<h3 class="green">Blender</h3>
+									<h3 class="yellow">Zbrush</h3>
+								</div>
+								
+
+							</div>
+							<div class="col-4 " >
+								<div class="skills">
+									<img src="images/About_me/standing-frontal-man-silhouette.png" class="image fit  skills" >
+									<h2 class="center">Rigging</h2>
+									<h3 class="green">Humanoid</h3>
+									<h3 class="yellow">Mechanical</h3>
+									<h3 class="yellow">Python Scripting</h3>
+								</div>
+							</div>
+							<div class="col-4 " >
+								<img src="images/About_me/clapperboard.png" class="image fit skills">
+								<div class="skills">
+								<h2>Animation</h2>
+								<h3 class="green">Animation Mechanics</h3>
+								<h3 class="green">Fight Animation</h3>
+								<h3 class="red">Facial Animation</h3>
+								<h3 class="yellow">Acting</h3>
+								</div>
+								
+							</div>
+						</div>
+					</section>
+					</form>
+				</article>
+				
+
 				
 				<!-- Work -->
 				<article id="work" class="panel">
@@ -51,23 +145,27 @@
 					<p>
 						All of my current 3D work & future work are displayed here
 					</p>
+					<header>
+						 <h3><a id="links" href="https://return-to-nangrim.com/en/home">Return to Nangrim - Upcoming Game</a></h3>
+					</header>
+					
 					<section>
 						<div class="row">
 							
 							<div class="col-4 col-6-medium col-12-small gallery" >
-								<a href="images/3D_Works_Portfolio/dwarven_book_set_specific_003.png" data-lightbox="image-1" class="image fit" ><img src="images/3D_Works_Portfolio/dwarven_book_set_specific_003.png"></a>
+								<a href="images/3D_Works_Portfolio/dwarven_book_set_specific_003.png" data-lightbox="image-1" class="image fit portfolio" ><img src="images/3D_Works_Portfolio/dwarven_book_set_specific_003.png"></a>
 							</div>
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="images/3D_Works_Portfolio/dwarven_carpet_set_001.png" data-lightbox="image-1" class="image fit"><img src="images/3D_Works_Portfolio/dwarven_carpet_set_001.png" alt=""></a>
+								<a href="images/3D_Works_Portfolio/dwarven_carpet_set_001.png" data-lightbox="image-1" class="image fit portfolio"><img src="images/3D_Works_Portfolio/dwarven_carpet_set_001.png" alt=""></a>
 							</div>
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="images/3D_Works_Portfolio/dwarven_chest_set_001.png" data-lightbox="image-1" class="image fit"><img src="images/3D_Works_Portfolio/dwarven_chest_set_001.png" alt=""></a>
+								<a href="images/3D_Works_Portfolio/dwarven_chest_set_001.png" data-lightbox="image-1" class="image fit portfolio"><img src="images/3D_Works_Portfolio/dwarven_chest_set_001.png" alt=""></a>
 							</div>
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="images/3D_Works_Portfolio/dwarven_cup_set_01.png" data-lightbox="image-1" class="image fit"><img src="images/3D_Works_Portfolio/dwarven_cup_set_01.png" alt=""></a>
+								<a href="images/3D_Works_Portfolio/dwarven_cup_set_01.png" data-lightbox="image-1" class="image fit portfolio"><img src="images/3D_Works_Portfolio/dwarven_cup_set_01.png" alt=""></a>
 							</div>
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="images/3D_Works_Portfolio/dwarven_tankard_set_001.png" data-lightbox="image-1" class="image fit"><img src="images/3D_Works_Portfolio/dwarven_tankard_set_001.png" alt=""></a>
+								<a href="images/3D_Works_Portfolio/dwarven_tankard_set_001.png" data-lightbox="image-1" class="image fit portfolio"><img src="images/3D_Works_Portfolio/dwarven_tankard_set_001.png" alt=""></a>
 							</div>
 							<!--<div class="col-4 col-6-medium col-12-small gallery-img">
 								<a href="https://www.youtube.com/watch?v=DI9_hofPpCU" class="image fit" data-lity><img id="img_6" src="images/pic06.jpg" alt=""></a>
@@ -79,15 +177,15 @@
 					<header>
 						<h2>Animation</h2>
 						<p>
-							Animation that I made on the side
+							<!-- ll of my animation are displayed here -->
 						</p>
 						<div class="row">
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="https://www.youtube.com/watch?v=DI9_hofPpCU" class="image fit" data-lity target="video_1"> <img src="https://i.ytimg.com/vi/DI9_hofPpCU/hqdefault.jpg" alt=""></a>
+								<a href="https://www.youtube.com/watch?v=DI9_hofPpCU" class="image fit portfolio" data-lity target="video_1"> <img src="https://i.ytimg.com/vi/DI9_hofPpCU/hqdefault.jpg" alt=""></a>
 							</div>
 
 							<div class="col-4 col-6-medium col-12-small gallery-img">
-								<a href="https://youtu.be/u1dR340g6y4" class="image fit" data-lity target="video_1"> <img src="https://i.ytimg.com/vi/u1dR340g6y4/maxresdefault.jpg" alt=""></a>
+								<a href="https://youtu.be/u1dR340g6y4" class="image fit portfolio" data-lity target="video_1"> <img src="https://i.ytimg.com/vi/u1dR340g6y4/maxresdefault.jpg" alt=""></a>
 							</div>
 						</div>	
 					</header>
@@ -100,19 +198,19 @@
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="images/2D Artworks/Modul1-Fox.png" data-lightbox="image-2" class="image fit"><img src="images/2D Artworks/Modul1-Fox.png" alt=""></a>
+							<a href="images/2D Artworks/Modul1-Fox.png" data-lightbox="image-2" class="image fit portfolio"><img src="images/2D Artworks/Modul1-Fox.png" alt=""></a>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="images/2D Artworks/Character_Heroin_FINAL.png" data-lightbox="image-2" class="image fit"><img src="images/2D Artworks/Character_Heroin_FINAL.png" alt=""></a>
+							<a href="images/2D Artworks/Character_Heroin_FINAL.png" data-lightbox="image-2" class="image fit portfolio"><img src="images/2D Artworks/Character_Heroin_FINAL.png" alt=""></a>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="images/2D Artworks/ahri_final.png" data-lightbox="image-2" class="image fit"><img src="images/2D Artworks/ahri_final.png" alt=""></a>
+							<a href="images/2D Artworks/ahri_final.png" data-lightbox="image-2" class="image fit portfolio"><img src="images/2D Artworks/ahri_final.png" alt=""></a>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="images/2D Artworks/Yoko-Littner.png" data-lightbox="image-2" class="image fit"><img src="images/2D Artworks/Yoko-Littner.png" alt=""></a>
+							<a href="images/2D Artworks/Yoko-Littner.png" data-lightbox="image-2" class="image fit portfolio"><img src="images/2D Artworks/Yoko-Littner.png" alt=""></a>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="images/2D Artworks/Hyperdimension Neptunia - Nisa.jpg" data-lightbox="image-2" class="image fit"><img src="images/2D Artworks/Hyperdimension Neptunia - Nisa.jpg" alt=""></a>
+							<a href="images/2D Artworks/Hyperdimension Neptunia - Nisa.jpg" data-lightbox="image-2" class="image fit portfolio"><img src="images/2D Artworks/Hyperdimension Neptunia - Nisa.jpg" alt=""></a>
 						</div>
 
 					</div>
@@ -172,6 +270,16 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
+		<!-- Loader -->
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+
 		
 	</body>
 	</html>

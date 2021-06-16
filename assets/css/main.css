@@ -24,6 +24,19 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+#links {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#links:hover {
+  color: #7e7e7e;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -1249,7 +1262,10 @@ h3, h4, h5, h6 {
   h2 {
     font-size: 1.375em;
   }
-  h3, h4, h5, h6 {
+  h3 {
+    font-size: 1.3em;
+  }
+  h4, h5, h6 {
     font-size: 1em;
   }
 }
@@ -1401,8 +1417,6 @@ header > p {
 .image img {
   display: block;
   width: 100%;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .image.fit {
@@ -1431,7 +1445,18 @@ header > p {
   width: auto;
 }
 
-.image:hover {
+.image.skills {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.image.portfolio:hover {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-transform: scale(1.1);
@@ -1792,6 +1817,22 @@ body.is-preload #wrapper {
   width: 100%;
 }
 
+#main > .panel.about_me .skills {
+  text-align: center;
+}
+
+#main > .panel.about_me .skills h3.green {
+  color: green;
+}
+
+#main > .panel.about_me .skills h3.yellow {
+  color: #bb8014;
+}
+
+#main > .panel.about_me .skills h3.red {
+  color: red;
+}
+
 #main > .panel.inactive {
   opacity: 0;
 }
@@ -1958,6 +1999,49 @@ body.is-preload #wrapper {
     font-size: 1em;
     margin: 0.25em 0 0 0;
   }
+}
+
+/* Skills */
+/*Testing */
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.test2 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.circle {
+  fill: #456BD9;
+  stroke: #0F1C3F;
+  stroke-width: 0.1875em;
+  padding-left: 50%;
+}
+
+.circle.green {
+  fill: #45d95e;
+  stroke: #0f3f17;
+}
+
+.circle.yellow {
+  fill: #d9b645;
+  stroke: #3f1a0f;
+}
+
+.circle.red {
+  fill: #d94545;
+  stroke: #3f120f;
 }
 
 /* Footer */
