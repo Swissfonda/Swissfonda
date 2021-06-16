@@ -1196,7 +1196,7 @@ body {
   overflow-y: scroll;
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body :not(.loader).is-preload *, body :not(.loader).is-preload *:before, body :not(.loader).is-preload *:after {
   -webkit-animation: none !important;
   animation: none !important;
   -webkit-transition: none !important;
